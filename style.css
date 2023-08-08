@@ -1,0 +1,120 @@
+body {
+    background-color: rgb(109, 63, 216);
+}
+#Website {
+    display:flex;
+    flex-direction: column;
+}
+#screen_top {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(102, 102, 252);
+    border-bottom: solid rgb(51, 51, 126) 4px;
+}
+#logo_box {
+    margin-left: 10px;
+    font-size: 10px;
+}
+#logo_img {
+    height: 70px;
+}
+#nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(102, 102, 252);
+    margin-right: 10px;
+}
+.tab {
+    margin-left: 4px;
+    margin-right: 4px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(rgb(134, 128, 254), rgb(50, 47, 91));
+    border-radius: 5px 5px 5px 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#Welcome {
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: rgb(52, 139, 221);
+    color: white;
+}
+#about_img {
+    height: 300px;
+    background-color: rgb(135, 214, 240);
+}
+#About {
+    display:flex;
+    flex-direction: row;
+    background-color: lightblue;
+}
+#About_txt {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+#Acad {
+    display:flex;
+    flex-direction: column;
+}
+#Acad_title {
+    display:flex;
+    justify-content: center;
+    background-color: rgb(52, 139, 221);
+    color: white;
+}
+#acad_img {
+    height: 300px;
+    background-color: rgb(135, 214, 240);
+}
+#lists_and_img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#Lists {
+    display: flex;
+    background-color:lightblue;
+    padding-left: 50px;
+    justify-items: space-evenly;
+}
+#Grade1 {
+    display:flex;
+    flex-direction: column;
+}
+#Grade2 {
+    display:flex;
+    flex-direction: column;
+}
+#Grade3 {
+    display:flex;
+    flex-direction: column;
+}
+#Grade4 {
+    display:flex;
+    flex-direction: column;
+}
+@media(max-width: 1030px) {
+    #Lists {
+        flex-direction: column;
+    }
+    body {
+        font-size: 15px;
+    }
+    #nav {
+        max-width: 100px;
+        flex-direction: column;
+    }
+}
+#click {
+    font-size: 30px;
+}
